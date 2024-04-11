@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using exercicioV6.Data;
 using exercicioV6.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace exercicioV6.Controllers
 {
@@ -23,7 +24,7 @@ namespace exercicioV6.Controllers
         public async Task<IActionResult> Index()
         {
               return _context.Contact != null ? 
-                          View(await _context.Contact.ToListAsync()) :
+                          View(await _context.Contact.Where(isdel => !isdel.isDeleted).ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContext.Contact'  is null.");
         }
 
@@ -158,6 +159,40 @@ namespace exercicioV6.Controllers
         private bool ContactExists(int id)
         {
           return (_context.Contact?.Any(e => e.Id == id)).GetValueOrDefault();
+        }
+
+        [Authorize]
+        public async Task<IActionResult> SoftDelete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var contact = await _context.Contact.FindAsync(id);
+            if (contact == null)
+            {
+                return NotFound();
+            }
+            return View(contact);
+        }
+
+        [Authorize]
+        // POST: Contacts/SoftDelete/6
+        [HttpPost, ActionName("SoftDelete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> SoftDelete(int id)
+        {
+            var contact = await _context.Contact.FindAsync(id);
+            if (contact != null)
+            {
+                contact.isDeleted = true;
+                _context.Update(contact);
+                await _context.SaveChangesAsync();
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }
