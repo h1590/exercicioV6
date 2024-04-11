@@ -28,7 +28,9 @@ namespace exercicioV6.Controllers
                           Problem("Entity set 'ApplicationDbContext.Contact'  is null.");
         }
 
+
         // GET: Contacts/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Contact == null)
@@ -46,12 +48,14 @@ namespace exercicioV6.Controllers
             return View(contact);
         }
 
+        [Authorize]
         // GET: Contacts/Create
         public IActionResult Create()
         {
             return View();
         }
 
+        [Authorize]
         // POST: Contacts/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -59,7 +63,20 @@ namespace exercicioV6.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("isDeleted,Id,name,phoneNumber,email")] Contact contact)
         {
-            if (ModelState.IsValid)
+            bool isUnique = true;
+            if (_context.Contact.Any(x => x.name == contact.name && x.Id != contact.Id))
+            {
+                isUnique = false;
+                ModelState.AddModelError("name", "Name already exists");
+            }
+
+            if (_context.Contact.Any(x => x.email == contact.email && x.Id != contact.Id))
+            {
+                isUnique = false;
+                ModelState.AddModelError("email", "Email already exists");
+            }
+
+            if (ModelState.IsValid && isUnique)
             {
                 _context.Add(contact);
                 await _context.SaveChangesAsync();
@@ -68,6 +85,7 @@ namespace exercicioV6.Controllers
             return View(contact);
         }
 
+        [Authorize]
         // GET: Contacts/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -87,6 +105,7 @@ namespace exercicioV6.Controllers
         // POST: Contacts/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("isDeleted,Id,name,phoneNumber,email")] Contact contact)
@@ -119,6 +138,7 @@ namespace exercicioV6.Controllers
             return View(contact);
         }
 
+        [Authorize]
         // GET: Contacts/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -137,6 +157,7 @@ namespace exercicioV6.Controllers
             return View(contact);
         }
 
+        [Authorize]
         // POST: Contacts/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

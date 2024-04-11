@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|d:\\alfasoft\\exerciciov6\\exerciciov6\\exerciciov6\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|solutionrelative:exerciciov6\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|d:\\alfasoft\\exerciciov6\\exerciciov6\\exerciciov6\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|solutionrelative:exerciciov6\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|d:\\alfasoft\\exerciciov6\\exerciciov6\\exerciciov6\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|solutionrelative:exerciciov6\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_exercicioV6_a90ccd75_8302_4bf5_b62d_cd5a61427f37/True/SqlTable/dbo.Contact.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -65,7 +65,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
@@ -74,8 +74,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_exercicioV6_a90ccd75_8302_4bf5_b62d_cd5a61427f37/True/SqlTable/dbo.Contact.sql",
               "ToolTip": "dbo.Contact [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-11T15:56:22.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T15:56:22.406Z"
             },
             {
               "$type": "Document",
@@ -115,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\Contacts\\Index.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\Contacts\\Index.cshtml",
@@ -160,8 +159,7 @@
               "RelativeToolTip": "exercicioV6\\Views\\Contacts\\Delete.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T02:02:21.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T02:02:21.584Z"
             },
             {
               "$type": "Document",
@@ -189,13 +187,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "exercicioV6\\Controllers\\ContactsController.cs",
               "ToolTip": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Controllers\\ContactsController.cs",
               "RelativeToolTip": "exercicioV6\\Controllers\\ContactsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBoAAABnAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T23:21:04.776Z",
               "EditorCaption": ""
