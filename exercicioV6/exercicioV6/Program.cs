@@ -1,6 +1,7 @@
 using exercicioV6.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,3 +43,19 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var dbContext = services.GetService<ApplicationDbContext>();
+
+    if (dbContext != null && dbContext.Database.GetDbConnection().State != ConnectionState.Open)
+    {
+        dbContext.Database.OpenConnection();
+
+        // Run EnsureCreated() to create the database and any pending migrations
+        dbContext.Database.EnsureCreated();
+    }
+
+}
+

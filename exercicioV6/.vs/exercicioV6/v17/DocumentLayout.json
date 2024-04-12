@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|d:\\alfasoft\\exerciciov6\\exerciciov6\\exerciciov6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|solutionrelative:exerciciov6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|d:\\alfasoft\\exerciciov6\\exerciciov6\\exerciciov6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|solutionrelative:exerciciov6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|d:\\alfasoft\\exerciciov6\\exerciciov6\\exerciciov6\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12734711-6396-42A2-A4B8-D65D5F7A6078}|exercicioV6\\exercicioV6.csproj|solutionrelative:exerciciov6\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,11 +73,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\appsettings.json",
+              "RelativeDocumentMoniker": "exercicioV6\\appsettings.json",
+              "ToolTip": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\appsettings.json",
+              "RelativeToolTip": "exercicioV6\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-12T15:03:37.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Program.cs",
+              "RelativeDocumentMoniker": "exercicioV6\\Program.cs",
+              "ToolTip": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Program.cs",
+              "RelativeToolTip": "exercicioV6\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T14:41:21.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "dbo.Contact [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_exercicioV6_a90ccd75_8302_4bf5_b62d_cd5a61427f37/True/SqlTable/dbo.Contact.sql",
               "ToolTip": "dbo.Contact [Data]",
@@ -78,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\_ViewImports.cshtml",
@@ -90,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\Home\\Privacy.cshtml",
@@ -102,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\Home\\Index.cshtml",
@@ -114,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\Contacts\\Index.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\Contacts\\Index.cshtml",
@@ -122,12 +156,11 @@
               "RelativeToolTip": "exercicioV6\\Views\\Contacts\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T02:02:55.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T02:02:55.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\Contacts\\Edit.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\Contacts\\Edit.cshtml",
@@ -139,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\Contacts\\Details.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\Contacts\\Details.cshtml",
@@ -151,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\Contacts\\Delete.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\Contacts\\Delete.cshtml",
@@ -163,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\Contacts\\Create.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\Contacts\\Create.cshtml",
@@ -175,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Contact.cs",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "exercicioV6\\Models\\Contact.cs",
@@ -187,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "exercicioV6\\Controllers\\ContactsController.cs",
@@ -200,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\_ViewStart.cshtml",
@@ -212,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "exercicioV6\\Views\\Shared\\_Layout.cshtml",
@@ -224,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20240411015839_initialSetup.cs",
               "DocumentMoniker": "D:\\Alfasoft\\exercicioV6\\exercicioV6\\exercicioV6\\Data\\Migrations\\20240411015839_initialSetup.cs",
               "RelativeDocumentMoniker": "exercicioV6\\Data\\Migrations\\20240411015839_initialSetup.cs",
